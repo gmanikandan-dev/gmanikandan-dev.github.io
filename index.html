@@ -4,293 +4,333 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Manikandan G</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Manikandan G — Software Programmer | Laravel & PHP Developer</title>
+  <meta name="description" content="Manikandan G — Laravel/PHP backend developer in Chennai. E-commerce and email marketing integrations at TargetBay. Magento, WooCommerce, Klaviyo, React, Next.js.">
+  <meta name="keywords" content="Laravel, PHP, Backend Developer, Chennai, TargetBay, E-commerce, REST API, React, Next.js">
+  <meta property="og:title" content="Manikandan G — Software Programmer">
+  <meta property="og:description" content="Laravel/PHP backend developer specializing in e-commerce and email marketing integrations.">
+  <meta property="og:url" content="https://gmanikandan-dev.github.io/">
+  <meta property="og:type" content="website">
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
-  <!-- Fontawesome cdn  -->
   <script src="https://kit.fontawesome.com/b77799fdf8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
+  <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
-
-      <h1 class="logo"><a href="index.html">Manikandan G</a></h1>
-
+      <p class="logo mb-0"><a href="index.html">Manikandan G</a></p>
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#experience">Experience</a></li>
+          <li><a class="nav-link scrollto" href="#skills">Skills</a></li>
+          <li><a class="nav-link scrollto" href="#work">Work</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="nav-link scrollto border border-primary p-2" href="assets/img/gmanikandan-dev-resume.pdf"
-              target="_blank">Download
-              CV</a></li>
+          <li><a class="nav-link btn-cv" href="assets/img/gmanikandan-dev-resume.pdf" target="_blank" rel="noopener">Download CV</a></li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+        <i class="bi bi-list mobile-nav-toggle" aria-label="Toggle navigation"></i>
+      </nav>
     </div>
-  </header><!-- End Header -->
+  </header>
 
-  <!-- ======= Hero Section ======= -->
   <section id="hero">
-    <div class="hero-container">
-      <h3>Welcome to <strong>our site</strong></h3>
-      <h1>I'm Laravel Developer</h1>
-      <h2>Using the Laravel Framework, I am experienced in developing and maintaining web apps and REST APIs.</h2>
-      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 hero-content">
+          <span class="hero-greeting">Hello, I'm</span>
+          <h1>Manikandan G</h1>
+          <p class="hero-role">Software Programmer — Laravel &amp; PHP</p>
+          <p class="hero-tagline" id="hero-tagline">I build scalable backend services, e-commerce integrations, and APIs that power large-scale email marketing and online retail operations.</p>
+          <div class="hero-buttons">
+            <a href="#work" class="btn-primary-custom scrollto"><i class="bi bi-briefcase"></i> View Integrations</a>
+            <a href="assets/img/gmanikandan-dev-resume.pdf" class="btn-outline-custom" target="_blank" rel="noopener"><i class="bi bi-download"></i> Download CV</a>
+            <a href="https://www.linkedin.com/in/gmanikandan-dev/" class="btn-outline-custom" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i> LinkedIn</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="hero-card reveal">
+            <div class="hero-card-header">
+              <span class="hero-card-dot red"></span>
+              <span class="hero-card-dot yellow"></span>
+              <span class="hero-card-dot green"></span>
+              <span class="hero-card-title">developer.php</span>
+            </div>
+            <div class="hero-stats">
+              <div class="hero-stat">
+                <div class="hero-stat-value" id="experience-years">—</div>
+                <div class="hero-stat-label">Years Experience</div>
+              </div>
+              <div class="hero-stat">
+                <div class="hero-stat-value">6+</div>
+                <div class="hero-stat-label">Integrations Built</div>
+              </div>
+            </div>
+            <div class="hero-code">
+              <span class="keyword">class</span> <span class="func">Developer</span> {<br>
+              &nbsp;&nbsp;<span class="keyword">public</span> <span class="func">build</span>() {<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span> <span class="string">'scalable APIs'</span>;<br>
+              &nbsp;&nbsp;}<br>
+              } <span class="comment">// Laravel · PHP · React</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </section><!-- End Hero -->
+  </section>
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
-
-        <div class="section-title">
-          <h2>About</h2>
-          <h3>Learn More <span>About Us</span></h3>
-          <p>I've been creating and managing web apps with the Laravel framework for
-            <strong id="experience"></strong>.
-          </p>
+        <div class="section-title reveal">
+          <span class="section-label">About</span>
+          <h2>Learn More <span>About Me</span></h2>
+          <p>I've been building and maintaining web applications for <strong id="experience-duration"></strong>, with a focus on backend development and platform integrations.</p>
         </div>
-
-        <div class="row content">
-          <h5 class="text-center mb-4">The work listed below has been done by me.</h5>
-          <div class="col-lg-6">
+        <div class="row content justify-content-center">
+          <div class="col-lg-8 reveal">
+            <p class="about-intro">I'm a software programmer based in Chennai, currently at TargetBay, where I design scalable Laravel/PHP backends and integrate e-commerce and email marketing platforms. I also build user-facing features with React and Next.js.</p>
             <ul>
-              <li><i class="bi bi-chevron-double-right"></i> Designing and building web applications using Laravel.
-              </li>
-              <li><i class="bi bi-chevron-double-right"></i> Creating REST APIs for App developers using Laravel.
-              </li>
-              <li><i class="bi bi-chevron-double-right"></i> Develop and Maintain databases to store website data
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-6">
-            <ul>
-              <li><i class="bi bi-chevron-double-right"></i> Integrated Packages such as Socialite,QrCode,Spatie Media
-                Library,Breeze,Dom PDF,Livewire and Filamentphp
-              </li>
-              <li><i class="bi bi-chevron-double-right"></i> Payment Gateway integration using Razorpay
-              </li>
-              <li><i class="bi bi-chevron-double-right"></i> Creating unit tests using PHPUnit.
-              </li>
+              <li><i class="bi bi-chevron-double-right"></i> Designing and maintaining scalable backend services with Laravel and PHP</li>
+              <li><i class="bi bi-chevron-double-right"></i> Building REST APIs and data-processing pipelines for high-volume operations</li>
+              <li><i class="bi bi-chevron-double-right"></i> Integrating Magento, WooCommerce, Klaviyo, and email provider APIs</li>
+              <li><i class="bi bi-chevron-double-right"></i> Improving performance through query optimization, caching, and efficient architecture</li>
+              <li><i class="bi bi-chevron-double-right"></i> Also experienced with Razorpay payments, PHPUnit testing, and full SDLC delivery</li>
             </ul>
           </div>
         </div>
-
       </div>
-    </section><!-- End About Section -->
+    </section>
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <section id="experience" class="section-alt">
       <div class="container">
-
-        <div class="section-title">
-          <h2>Services</h2>
-          <h3>We do offer awesome <span>Services</span></h3>
-          <p>Working with Laravel web applications requires a good understanding of Laravel's MVC architecture,
-            expertise in e-commerce development, troubleshooting skills, and knowledge of integrating payment gateways
-            to enable secure online transactions.</p>
+        <div class="section-title reveal">
+          <span class="section-label">Experience</span>
+          <h2>Where I've <span>Worked</span></h2>
+          <p>My professional journey building web applications and backend systems.</p>
         </div>
-
-        <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="fab fa-laravel"></i></div>
-              <h4 class="title"><a href="">Laravel web application & REST APIs development</a></h4>
-              <p class="description">Laravel is a popular PHP web application framework that allows developers to build
-                scalable and robust web applications using its MVC (Model-View-Controller) architecture. It provides a
-                wide range of features and tools that simplify and speed up the development process.</p>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="timeline-role">Software Programmer</h3>
+                <div class="timeline-company">TargetBay</div>
+                <div class="timeline-meta">
+                  <span><i class="bi bi-calendar3"></i> Jul 2023 – Present</span>
+                  <span><i class="bi bi-geo-alt"></i> Chennai, Tamil Nadu · On-site</span>
+                </div>
+              </div>
+              <ul>
+                <li>Designed and maintained scalable backend services using Laravel and PHP</li>
+                <li>Developed integrations with Magento, WooCommerce, Klaviyo, Gmail, Outlook, and Google Postmaster</li>
+                <li>Improved application performance through query optimization, caching strategies, and efficient data-processing pipelines</li>
+                <li>Built APIs and backend workflows supporting large-scale email marketing and e-commerce operations</li>
+                <li>Developed internal tools and user-facing features using React and Next.js</li>
+                <li>Leveraged AI-assisted development tools including GitHub Copilot, Cursor, Claude, and Windsurf</li>
+              </ul>
             </div>
           </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="fa-solid fa-cart-shopping"></i></div>
-              <h4 class="title"><a href="">Ecommerce development</a></h4>
-              <p class="description">Ecommerce development using Laravel involves creating online stores and
-                marketplaces with features such as product catalog management, shopping cart, order management, and
-                payment gateway integration. Laravel's built-in features and plugins make it easy to create powerful and
-                user-friendly e-commerce platforms.
-                and more</p>
+          <div class="timeline-item reveal">
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <h3 class="timeline-role">Web Developer</h3>
+                <div class="timeline-company">Synamen Thinklabs Private Limited</div>
+                <div class="timeline-meta">
+                  <span><i class="bi bi-calendar3"></i> Jun 2021 – Jul 2023</span>
+                  <span><i class="bi bi-geo-alt"></i> Chennai, Tamil Nadu · On-site</span>
+                </div>
+              </div>
+              <ul>
+                <li>Built and maintained web applications using Laravel and Yii2</li>
+                <li>Developed REST APIs and backend services for internal and customer-facing applications</li>
+                <li>Worked with Livewire, FilamentPHP, JavaScript, jQuery, Bootstrap, HTML, and CSS</li>
+                <li>Participated in the full software development lifecycle from requirement analysis to deployment</li>
+                <li>Gained hands-on experience in database design, authentication systems, package integrations, and application maintenance</li>
+              </ul>
             </div>
           </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="fa-sharp fa-solid fa-toolbox"></i></div>
-              <h4 class="title"><a href="">Troubleshooting</a></h4>
-              <p class="description">Troubleshooting is a crucial part of working with Laravel web applications. It
-                involves identifying and resolving issues that may arise during development, deployment, or production.
-                This may involve debugging code, analyzing error logs, and performing testing to ensure that the
-                application is running smoothly.</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="fa-solid fa-money-check-dollar"></i></div>
-              <h4 class="title"><a href="">Payment gateway integration</a></h4>
-              <p class="description">
-                Payment gateway integration is another critical aspect of Laravel web application development. Payment
-                gateways allow users to make payments online securely. Laravel provides various packages and plugins to
-                integrate different payment gateways, making it easy for developers to implement secure online
-                transactions.
-              </p>
-            </div>
-          </div>
-
         </div>
-
       </div>
-    </section><!-- End Services Section -->
+    </section>
 
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
+    <section id="skills">
       <div class="container">
-
-        <div class="row">
-          <div class="col-lg-3 col-md-4 col-6 col-6">
-            <div class="icon-box">
-              <i class="fa-brands fa-laravel" style="color:red;"></i>
-              <h3><a href="">Laravel Framework</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="icon-box">
-              <i class="fa-brands fa-php" style="color: #5578ff;"></i>
-              <h3><a href="">PHP</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="icon-box">
-              <i class="fa-solid fa-database" style="color: #e80368;"></i>
-              <h3><a href="">MySQL</a></h3>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="icon-box">
-              <i class="fa-solid fa-database" style="color: #1f7e08;"></i>
-              <h3><a href="">MongoDB</a></h3>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6 mt-4">
-            <div class="icon-box">
-              <i class="fa-solid fa-database" style="color: #ec4e39;"></i>
-              <h3><a href="">Redis</a></h3>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6 mt-4">
-            <div class="icon-box">
-              <i class="fa-brands fa-square-js" style="color: #b2904f;"></i>
-              <h3><a href="">Javascript</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6 mt-4">
-            <div class="icon-box">
-              <i class="fa-brands fa-bootstrap" style="color: #4233ff;"></i>
-              <h3><a href="">Tailwind</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6 mt-4">
-            <div class="icon-box">
-              <i class="fa-brands fa-css3-alt" style="color: #b20969;"></i>
-              <h3><a href="">CSS</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-6 mt-4">
-            <div class="icon-box">
-              <i class="fa-brands fa-html5" style="color: #ff5828;"></i>
-              <h3><a href="">HTML</a>
-                <h3>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6 mt-4">
-            <div class="icon-box">
-              <i class="fa-brands fa-square-git"></i>
-              <h3><a href="">Git</a></h3>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6 mt-4">
-            <div class="icon-box">
-              <i class="fa-solid fa-pen-to-square"></i>
-              <h3><a href="">VS Code/Windsurf</a></h3>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6 mt-4">
-            <div class="icon-box">
-              <i class="fa-brands fa-ubuntu"></i>
-              <h3><a href="">Ubuntu</a></h3>
-            </div>
-          </div>
-
+        <div class="section-title reveal">
+          <span class="section-label">Skills</span>
+          <h2>Technologies I <span>Work With</span></h2>
+          <p>A snapshot of the tools and platforms I use across backend, frontend, and integrations.</p>
         </div>
-
+        <div class="skills-grid">
+          <div class="skill-category reveal">
+            <h4>Backend</h4>
+            <div class="skill-chips">
+              <span class="skill-chip">PHP</span>
+              <span class="skill-chip">Laravel</span>
+              <span class="skill-chip">Yii2</span>
+              <span class="skill-chip">REST APIs</span>
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <h4>Frontend</h4>
+            <div class="skill-chips">
+              <span class="skill-chip">React</span>
+              <span class="skill-chip">Next.js</span>
+              <span class="skill-chip">Livewire</span>
+              <span class="skill-chip">FilamentPHP</span>
+              <span class="skill-chip">JavaScript</span>
+              <span class="skill-chip">HTML</span>
+              <span class="skill-chip">CSS</span>
+              <span class="skill-chip">Bootstrap</span>
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <h4>Integrations</h4>
+            <div class="skill-chips">
+              <span class="skill-chip">Magento</span>
+              <span class="skill-chip">WooCommerce</span>
+              <span class="skill-chip">Klaviyo</span>
+              <span class="skill-chip">Gmail API</span>
+              <span class="skill-chip">Outlook API</span>
+              <span class="skill-chip">Google Postmaster</span>
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <h4>Data &amp; Performance</h4>
+            <div class="skill-chips">
+              <span class="skill-chip">MySQL</span>
+              <span class="skill-chip">MongoDB</span>
+              <span class="skill-chip">Redis</span>
+              <span class="skill-chip">Query Optimization</span>
+              <span class="skill-chip">Caching</span>
+            </div>
+          </div>
+          <div class="skill-category reveal">
+            <h4>Tools</h4>
+            <div class="skill-chips">
+              <span class="skill-chip">Git</span>
+              <span class="skill-chip">Ubuntu</span>
+              <span class="skill-chip">VS Code</span>
+              <span class="skill-chip">Cursor</span>
+              <span class="skill-chip">Windsurf</span>
+              <span class="skill-chip">PHPUnit</span>
+            </div>
+          </div>
+        </div>
+        <p class="skills-note reveal">Also experienced with <strong>Razorpay payments</strong>, <strong>Socialite</strong>, <strong>Spatie Media Library</strong>, <strong>DomPDF</strong>, and <strong>Laravel Breeze</strong>.</p>
       </div>
-    </section><!-- End Features Section -->
+    </section>
 
-    <!-- ======= Contact Section ======= -->
+    <section id="work" class="section-alt">
+      <div class="container">
+        <div class="section-title reveal">
+          <span class="section-label">Work Highlights</span>
+          <h2>Integration <span>Expertise</span></h2>
+          <p>Key areas where I've delivered production integrations and backend systems.</p>
+        </div>
+        <div class="work-grid">
+          <div class="work-card reveal">
+            <div class="work-card-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+            <h4>E-commerce Platforms</h4>
+            <p>Built sync workflows between Laravel backends and Magento and WooCommerce stores, handling order flows, catalog data, and customer events at scale.</p>
+            <div class="work-tags">
+              <span class="work-tag">Magento</span>
+              <span class="work-tag">WooCommerce</span>
+              <span class="work-tag">Laravel</span>
+            </div>
+          </div>
+          <div class="work-card reveal">
+            <div class="work-card-icon"><i class="fa-solid fa-envelope"></i></div>
+            <h4>Email Marketing</h4>
+            <p>Integrated Klaviyo for campaign management and customer data flows, connecting e-commerce events to targeted email marketing automation.</p>
+            <div class="work-tags">
+              <span class="work-tag">Klaviyo</span>
+              <span class="work-tag">REST APIs</span>
+              <span class="work-tag">Webhooks</span>
+            </div>
+          </div>
+          <div class="work-card reveal">
+            <div class="work-card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <h4>Email Deliverability</h4>
+            <p>Developed tooling around Gmail, Outlook, and Google Postmaster APIs to monitor sender reputation and support reliable email delivery.</p>
+            <div class="work-tags">
+              <span class="work-tag">Gmail API</span>
+              <span class="work-tag">Outlook</span>
+              <span class="work-tag">Postmaster</span>
+            </div>
+          </div>
+          <div class="work-card reveal">
+            <div class="work-card-icon"><i class="fa-solid fa-gauge-high"></i></div>
+            <h4>Performance at Scale</h4>
+            <p>Optimized high-traffic applications with strategic caching, query tuning, and background data-processing pipelines for email and e-commerce workloads.</p>
+            <div class="work-tags">
+              <span class="work-tag">Redis</span>
+              <span class="work-tag">MySQL</span>
+              <span class="work-tag">Caching</span>
+            </div>
+          </div>
+          <div class="work-card reveal">
+            <div class="work-card-icon"><i class="fa-brands fa-react"></i></div>
+            <h4>Full-Stack Features</h4>
+            <p>Delivered React and Next.js user interfaces backed by Laravel APIs, bridging modern frontends with robust PHP backend services.</p>
+            <div class="work-tags">
+              <span class="work-tag">React</span>
+              <span class="work-tag">Next.js</span>
+              <span class="work-tag">Laravel</span>
+            </div>
+          </div>
+          <div class="work-card reveal">
+            <div class="work-card-icon"><i class="fa-solid fa-table-columns"></i></div>
+            <h4>Admin &amp; Internal Tools</h4>
+            <p>Built admin dashboards and internal tooling with Livewire and FilamentPHP, enabling teams to manage data and operations efficiently.</p>
+            <div class="work-tags">
+              <span class="work-tag">Livewire</span>
+              <span class="work-tag">FilamentPHP</span>
+              <span class="work-tag">Yii2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="contact" class="contact">
       <div class="container">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-          <h3>Contact <span>Us</span></h3>
-          <p>Please contact for more details.</p>
+        <div class="section-title reveal">
+          <span class="section-label">Contact</span>
+          <h2>Get In <span>Touch</span></h2>
+          <p>Have a project or opportunity? I'd love to hear from you.</p>
         </div>
-
-
-        <div>
+        <div class="contact-map reveal mb-5">
           <iframe style="border:0; width: 100%; height: 270px;"
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9596.616174340032!2d80.25402962233987!3d12.965207694926999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1734880775971!5m2!1sen!2sin"
-            frameborder="0" allowfullscreen></iframe>
+            allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Location map"></iframe>
         </div>
-        <div class="row mt-5">
-
-          <div class="col-lg-4">
+        <div class="row">
+          <div class="col-lg-4 reveal">
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Kandanchavadi, Chennai-600096.
-                </p>
+                <h4>Location</h4>
+                <p>Kandanchavadi, Chennai-600096</p>
               </div>
-
               <div class="email">
                 <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>gmanikandan845@gmail.com</p>
+                <h4>Email</h4>
+                <p><a href="mailto:gmanikandan845@gmail.com">gmanikandan845@gmail.com</a></p>
               </div>
-
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+91 9629322688</p>
+                <h4>Phone</h4>
+                <p><a href="tel:+919629322688">+91 9629322688</a></p>
               </div>
-
             </div>
-
           </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
+          <div class="col-lg-8 mt-5 mt-lg-0 reveal">
             <form action="https://api.staticforms.xyz/submit" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
@@ -308,90 +348,71 @@
               </div>
               <input type="hidden" name="accessKey" value="f4874721-246c-4d86-995f-4d7a56b3bc81">
               <input type="hidden" name="redirectTo" value="https://gmanikandan-dev.github.io/success.html">
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center mt-4"><button type="submit">Send Message</button></div>
             </form>
-
           </div>
-
         </div>
-
       </div>
-    </section><!-- End Contact Section -->
+    </section>
 
-  </main><!-- End #main -->
+  </main>
 
-  <!-- ======= Footer ======= -->
   <footer id="footer">
-
     <div class="footer-top">
       <div class="container">
-        <div class="row text-center">
-          <div class="col-lg-4 col-md-4 col-12 ">
+        <div class="row text-center text-lg-start">
+          <div class="col-lg-4 col-md-4 col-12 mb-4 mb-lg-0">
             <h3>Manikandan G</h3>
             <p>
               <strong>Phone:</strong> +91 9629322688<br>
-              <strong>Email:</strong> gmanikandan845@gmail.com<br>
+              <strong>Email:</strong> gmanikandan845@gmail.com
             </p>
           </div>
-
-          <div class="col-lg-4 col-md-4 col-12">
+          <div class="col-lg-4 col-md-4 col-12 mb-4 mb-lg-0">
             <h4>Address</h4>
-            <p>Kandanchavadi, Chennai-600096.<br>
-              India.
-            </p>
+            <p>Kandanchavadi, Chennai-600096<br>India</p>
           </div>
           <div class="col-lg-4 col-md-4">
-            <div class="social-links pt-3 pt-md-0">
-              <h4>Follow me</h4>
-              <a href="https://codepen.io/gmanikandan-dev" target="__blank" class="instagram"><i
-                  class="bi bi-code-slash"></i></a>
-              <a href="https://github.com/gmanikandan-dev" target="__blank" class="google-plus"><i
-                  class="bi bi-git"></i></a>
-              <a href="https://www.linkedin.com/in/gmanikandan-dev/" target="__blank" class="linkedin"><i
-                  class="bi bi-linkedin"></i></a>
-              <a href="https://stackoverflow.com/users/17822042/gmanikandan-dev" target="__blank" class="linkedin"><i
-                  class="bi bi-stack-overflow"></i></a>
+            <div class="social-links">
+              <h4>Follow Me</h4>
+              <a href="https://codepen.io/gmanikandan-dev" target="_blank" rel="noopener" aria-label="CodePen"><i class="bi bi-code-slash"></i></a>
+              <a href="https://github.com/gmanikandan-dev" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-git"></i></a>
+              <a href="https://www.linkedin.com/in/gmanikandan-dev/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+              <a href="https://stackoverflow.com/users/17822042/gmanikandan-dev" target="_blank" rel="noopener" aria-label="Stack Overflow"><i class="bi bi-stack-overflow"></i></a>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="container">
-      <div class="text-center p-3">
-        &copy; Copyright 2022-
-        <script>document.write(new Date().getFullYear());</script> <strong><span>by Manikandan G</span></strong>. All
-        Rights Reserved
+    <div class="footer-bottom">
+      <div class="container">
+        &copy; <script>document.write(new Date().getFullYear());</script> <strong>Manikandan G</strong>. All Rights Reserved
       </div>
     </div>
   </footer>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center" aria-label="Back to top"><i class="bi bi-arrow-up-short"></i></a>
 
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/main.js"></script>
   <script>
-    let pluralDict = {
-      "year": "years",
-      "month": "months",
-    }
-    var d1 = new Date("2021-06-25");
-    var d2 = new Date();
-    var startMonth = d1.getFullYear() * 12 + d1.getMonth();
-    var endMonth = d2.getFullYear() * 12 + d2.getMonth();
-    var monthInterval = (endMonth - startMonth);
-
-    var yearsOfExperience = Math.floor(monthInterval / 12);
-    var monthsOfExperience = monthInterval % 12;
-    var yearInString = pluralizeWord('year', yearsOfExperience)
-    var monthInString = pluralizeWord('month', monthsOfExperience)
-    // console.log(yearsOfExperience, yearInString, monthsOfExperience, monthInString)
-    document.getElementById('experience').innerHTML = yearsOfExperience + " " + yearInString + " " + monthsOfExperience + " " + monthInString;
+    const pluralDict = { year: "years", month: "months" };
 
     function pluralizeWord(singularWord, count) {
-      return count > 1 ?
-        pluralDict[singularWord] : singularWord;
+      return count > 1 ? pluralDict[singularWord] : singularWord;
     }
+
+    const startDate = new Date("2021-06-01");
+    const today = new Date();
+    const startMonth = startDate.getFullYear() * 12 + startDate.getMonth();
+    const endMonth = today.getFullYear() * 12 + today.getMonth();
+    const monthInterval = endMonth - startMonth;
+    const yearsOfExperience = Math.floor(monthInterval / 12);
+    const monthsOfExperience = monthInterval % 12;
+    const experienceText = yearsOfExperience + " " + pluralizeWord("year", yearsOfExperience) + " " + monthsOfExperience + " " + pluralizeWord("month", monthsOfExperience);
+
+    document.getElementById("experience-duration").innerHTML = experienceText;
+    document.getElementById("experience-years").textContent = yearsOfExperience + "+";
   </script>
 </body>
 
